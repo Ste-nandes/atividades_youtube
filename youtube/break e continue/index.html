@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>21 - break e continue</title>
+</head>
+<body>
+  <script type="text/javascript">
+   
+   for(var i = 10; i > 0; i--) {
+
+console.log(i);
+
+if(i === 5) {
+  break;
+}  
+
+}
+
+console.log("Deu o break");
+
+ var x = 10;
+
+while(x < 100) {
+
+    x += 10;
+    if(x === 60 || x === 90) {
+console.log("continue");
+continue;
+}
+
+console.log("testando continue" + x);
+}
+  </script>
+</body>
+</html>
